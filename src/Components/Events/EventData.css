@@ -21,7 +21,7 @@
   margin-right: auto;
 }
 
-.data__body > img {
+.data__body>img {
   margin-top: 20px;
   height: 170px;
   width: auto;
@@ -29,14 +29,14 @@
   margin-right: auto;
 }
 
-.data__body > h5 {
+.data__body>h5 {
   text-align: center;
   font-size: 17px;
   font-weight: 500;
   margin-bottom: -7px;
 }
 
-.data__body > p {
+.data__body>p {
   text-align: center;
   font-style: italic;
   font-size: 15px;
@@ -48,7 +48,7 @@
   align-items: center;
 }
 
-.data__footer > h5 {
+.data__footer>h5 {
   font-size: 15px;
   font-weight: 500;
   border-bottom: 1px solid rgb(128, 124, 124);
@@ -57,7 +57,7 @@
   cursor: pointer;
 }
 
-.data__footer > p {
+.data__footer>p {
   background-color: white;
   color: black;
   padding: 9px 12px;
