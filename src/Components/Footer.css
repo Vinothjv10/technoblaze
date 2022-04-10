@@ -1,0 +1,37 @@
+.home__footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.home__footer>h4 {
+  font-size: 22px;
+  padding-top: 15px;
+  color: rgb(214, 214, 11);
+}
+
+.home__footer>p {
+  /* font-style: italic; */
+  font-size: 16px;
+}
+
+.footer__contact {
+  margin-top: 20px;
+}
+
+.footer__contact>a>img {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.credits {
+  font-size: 13px !important;
+  letter-spacing: 0.7px;
+}
+
+.credits>span {
+  color: rgb(214, 214, 11);
+}

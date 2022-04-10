@@ -1,0 +1,32 @@
+.memory > h3 {
+  font-size: 30px;
+  cursor: pointer;
+}
+.images > img {
+  max-width: 90vw;
+  height: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images > img:hover {
+  transition: transform 0.3s;
+  transform: scale(1.08);
+}
+
+@media (min-width: 1008px) {
+  .images {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .images > img {
+    height: 500px;
+  }
+}

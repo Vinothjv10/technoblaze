@@ -1,0 +1,27 @@
+.guide {
+  margin-left: 10px;
+}
+.guide > h5 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.guide > p {
+  font-size: 16px;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.guide__data > h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+
+  font-size: 20px;
+}
+
+.guide__data > p {
+  margin-left: 25px;
+  font-style: italic;
+}

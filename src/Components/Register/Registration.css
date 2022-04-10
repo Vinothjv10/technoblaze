@@ -1,0 +1,113 @@
+.registration {
+  /* background: linear-gradient(to bottom, rgb(255, 191, 71) 87%, rgb(253, 253, 142)); */
+}
+.register__card {
+  background-color: rgb(95, 95, 92);
+  border-radius: 19px;
+}
+
+
+.register__background {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+
+.register__card {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  padding: 10px;
+}
+
+.register__card > p {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  color:rgb(248, 242, 152);
+}
+
+.register__card>input::-webkit-input-placeholder {
+    color: rgba(238, 238, 238, 0.699);
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-style: italic;
+    
+}
+
+.register__card > input {
+  margin-bottom: 38px;
+  border: none;
+  background: rgb(95, 95, 92);
+  border-bottom: 1px solid rgb(143, 136, 136);
+  color: white;
+  font-size: 15px;
+}
+
+.register__card>h4{
+  color:rgb(248, 242, 152) ;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  border: 1px solid white;
+  padding: 9px 15px;
+  border-radius: 19px;
+  cursor: pointer;
+}
+
+.register__card>h4:hover{
+  background-color: rgb(248, 242, 152);
+  color: rgb(2, 2, 2);
+}
+
+.register__card > input:focus {
+  outline-width: 0;
+}
+
+.register__card>span{
+    color: rgb(175, 224, 173);
+    font-size: 12px;
+    font-style: italic;
+    margin-top: -25px;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .register__card {
+    width: 80vw;
+
+    margin-left: -7px;
+  }
+}
+.radio{
+    color: rgba(238, 238, 238, 0.699);
+    font-size: 16px;
+}
+
+.radio>p{
+    font-size: 20px;
+    color: rgb(248, 242, 152);
+}
+
+.radio1{
+    margin-bottom: 10px;
+}
+
+.pay__amount{
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -50px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pay__amount>span{
+  color: rgb(241, 233, 113);
+  margin-left: 10px;
+}

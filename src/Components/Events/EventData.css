@@ -1,0 +1,79 @@
+.eventdata {
+  width: 330px;
+  height: 400px;
+  background: linear-gradient(to right, white, rgb(115, 228, 200));
+  border-radius: 19px;
+  box-shadow: 0.5px 0.5px black;
+  margin-left: auto;
+  margin-bottom: 24px;
+  margin-right: auto;
+}
+
+.eventdata:hover {
+  transition: transform 0.7s;
+  transform: scale(1.08);
+}
+
+.data__body {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.data__body > img {
+  margin-top: 20px;
+  height: 170px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data__body > h5 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: -7px;
+}
+
+.data__body > p {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.data__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data__footer > h5 {
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 1px solid rgb(128, 124, 124);
+  margin-top: -7px;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
+
+.data__footer > p {
+  background-color: white;
+  color: black;
+  padding: 9px 12px;
+  border-radius: 19px;
+  cursor: pointer;
+}
+
+.participate:hover {
+  background-color: aquamarine;
+  color: rgb(44, 9, 9);
+}
+
+.participate {
+  background-color: white;
+  color: black;
+  padding: 9px 12px;
+  border-radius: 19px;
+  cursor: pointer;
+}

@@ -1,0 +1,86 @@
+.contactdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactus>h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Poppins,sans-serif;
+}
+
+.contactus>p{
+    text-align: center;
+    font-family: Poppins,sans-serif;
+    font-size: 17px;
+    color: rgb(148, 141, 141);
+}
+
+.contactcard{
+    background-color: rgb(206, 206, 5);
+    padding: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactcard>h3{
+    font-size: 26px;
+    margin-bottom: -15px;
+}
+
+.contactcard>h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact__phone{
+    display: flex;
+    align-items: center;
+}
+
+.contact__phone>img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.sc1{
+    display: flex;
+    flex-direction: column;
+}
+.sc1>p{
+    margin-top: -1px;
+    margin-right: 15px;
+}
+.sc1>span{
+    margin-right: 15px;
+
+}
+
+.contact__mail>img{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.contact__mail{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.contact__location>img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.contact__location{
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:768px){
+    .contactcard{
+        padding: 10px 5px;
+    }
+
+}

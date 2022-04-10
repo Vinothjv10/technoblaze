@@ -1,0 +1,141 @@
+/* .home{
+    
+} */
+
+.home__info {
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__info>h4 {
+  padding-top: 10px;
+  font-style: italic;
+  font-size: 34px;
+  color: #fff;
+  text-align: center;
+}
+
+.home__info>h5 {
+  margin-top: -10px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1.1px;
+}
+
+.info__logos {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.info__button {
+  margin-left: 17px;
+}
+
+.info__button>p {
+  font-size: 24px;
+  font-weight: 500;
+  color: yellow;
+}
+
+.info__button>button {
+  padding: 15px 24px;
+  border-radius: 99px;
+  font-size: 17px;
+  background: linear-gradient(to right, rgb(127, 127, 228), rgb(238, 155, 238));
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.info__button>button:hover {
+  /* transition: all 4s; */
+  background: linear-gradient(to right, rgb(238, 155, 238), rgb(127, 127, 228));
+  transform: scale(1.08);
+}
+
+.home__info {
+  /* background: url("C:\Users\sowmi\Desktop\functio\public\assets\homebg.gif"); */
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+}
+
+.home__info>p {
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.home__info>p>span {
+  color: yellow;
+}
+
+.technoblaze,
+.technical {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.technoblaze>p {
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.technoblaze__title>p,
+.technical__title>p,
+.nontechnical__title>p {
+  border-left: 5px solid #000;
+  padding-left: 15px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.nontechnical {
+  margin-left: 20px;
+  /* display: flex;
+    flex-direction: column; */
+}
+
+.nontechnical__data {
+  display: grid;
+  margin-top: 30px;
+}
+
+.technoblaze {
+  /* font-style: italic; */
+  font-size: 17px;
+}
+
+@media (min-width: 1068px) {
+
+  .technical__list,
+  .nontechnical__data {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .remove {
+    display: none;
+  }
+
+  .home__info>h4 {
+    font-size: 27px;
+  }
+
+  .home__info>h5 {
+    width: 60%;
+    font-size: 18px;
+    font-style: italic;
+  }
+}

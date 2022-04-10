@@ -1,0 +1,21 @@
+.eventBackground {
+  /* background: url("C:\Users\sowmi\Desktop\functio\public\assets\eventbg1.gif"); */
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  object-fit: cover;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 99px;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+  .eventBackground > p {
+    font-size: 70px;
+  }
+}
